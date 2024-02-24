@@ -1,0 +1,15 @@
+.about_item-section {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about_item-title {
+    font-size: 18px;
+}
+
+.about_item-desc {
+    font-size: 14px;
+    margin-top: 4px;
+}

@@ -59,6 +59,7 @@
   margin-right: 24px;
   font-size: 16px;
   color: #fff;
+  outline: none;
 }
 
 .form-item * {

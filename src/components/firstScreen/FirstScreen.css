@@ -1,0 +1,19 @@
+.first_screen-section {
+    margin-top: 100px;
+    display: flex;
+    gap: 120px;
+}
+
+.first_section {
+    width: 580px;
+}
+
+
+.second_section{
+    margin-top: 65px;
+    max-width: 580px;
+}
+
+.main_screen-description {
+    margin: 40px 0;
+}

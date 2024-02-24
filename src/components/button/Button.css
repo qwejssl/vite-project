@@ -17,6 +17,7 @@
 #white:hover {
   background-color: #1a3e3e;
   color: #fff;
+  border: none;
 }
 
 
@@ -24,4 +25,5 @@
   background-color: #fff;
   color: #1a3e3e;
   transition: 0.7s;
+  border: 1px solid #000;
 }
