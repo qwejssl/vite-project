@@ -1,7 +1,7 @@
-import tg from "./ic_baseline-telegram.png";
-import vk from "./entypo-social_vk-with-circle.png";
-import pinterest from "./mdi_pinterest.png";
-import skype from "./mdi_skype.png";
+import tg from "../../images/ic_baseline-telegram.png";
+import vk from "../../images/entypo-social_vk-with-circle.png";
+import pinterest from "../../images/mdi_pinterest.png";
+import skype from "../../images/mdi_skype.png";
 import "./Footer.css";
 
 export default function Footer() {

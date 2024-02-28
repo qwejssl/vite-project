@@ -1,0 +1,16 @@
+
+.thirdScreen-section {
+    margin-top: 80px;
+}
+
+.travel-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.travel-img {
+    pointer-events: none;
+}

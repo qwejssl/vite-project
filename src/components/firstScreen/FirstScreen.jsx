@@ -1,7 +1,9 @@
 import Title from "../title/Title";
 import Button from "../button/Button";
 import "./FirstScreen.css"
-import img from "./img.svg"
+import img1 from "../../images/first-img.svg"
+import img2 from "../../images/second-img.svg"
+
 
 export default function FirstScreen() {
     return(
@@ -9,7 +11,8 @@ export default function FirstScreen() {
         <div className="container">
             <div className="first_screen-section">
                 <div className="first_section">
-                    <img src={img} alt="" />
+                    <img className="first-img" src={img1} alt="" />
+                    <img className="second-img" src={img2} alt="" />
                 </div>
 
                 <div className="second_section">

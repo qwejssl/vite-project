@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "../../images/logo.png";
 import bg from "./bg.jpg";
 import "./MainScreen.css";
 import Button from "../button/Button";

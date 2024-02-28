@@ -3,6 +3,14 @@ import Button from "../button/Button";
 import "./SecondScreen.css";
 import ListItem from "../listItem/ListItem";
 import { ways } from "../../data";
+import img1 from "../../images/secondScreenImg1.svg"
+import img2 from "../../images/secondScreenImg2.svg"
+import img3 from "../../images/secondScreenImg3.svg"
+import img4 from "../../images/secondScreenImg4.svg"
+
+
+
+
 
 export default function SecondScreen() {
   return (
@@ -26,7 +34,12 @@ export default function SecondScreen() {
               <Button>Стоимость программ</Button>
             </div>
 
-            <div className="second_section"></div>
+            <div className="second_section">
+              <img className="second_section-img" src={img1} alt="" />
+              <img className="second_section-img" src={img2} alt="" />
+              <img className="second_section-img" src={img3} alt="" />
+              <img className="second_section-img" src={img4} alt="" />
+            </div>
           </div>
         </div>
       </div>

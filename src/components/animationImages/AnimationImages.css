@@ -1,0 +1,78 @@
+.main-animation {
+    width: 380px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image,
+.text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.image {
+    pointer-events: none;
+}
+
+
+.text {
+    width: 316px;
+    height: 450px;
+    background-color: #ffffff3e;
+    border-radius: 32px;
+    padding: 30px 32px 20px;
+    bottom: 0;
+    top: 80%;
+    transition: 2.5s;
+}
+
+
+.main-animation:hover .text {
+    bottom: 0;
+    top: 0;
+}
+
+
+
+
+
+.animation_title-section {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.animation-title {
+    width: 195px;
+    font-size: 24px;
+}
+
+.animation-under_text {
+    width: 195px;
+    font-size: 14px;
+}
+
+
+.price_block {
+    background-color: #ffffff3b;
+    padding: 8px 16px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.description_text {
+    color: #ffffff;
+    margin-bottom: 105px;
+}
+
+
+
+
+
+
