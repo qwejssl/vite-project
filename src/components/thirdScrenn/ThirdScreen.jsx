@@ -12,6 +12,8 @@ export default function ThirdScreen() {
         <div className="thirdScreen-section">
             <div className="container">
                 <Title style={"center"} text={"Популярные направления"}>Популярные направления</Title>
+                
+                
                 <div className="travel-section">
                     {animation.map(el => (
                         <AnimationImages {...el} />

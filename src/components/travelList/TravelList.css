@@ -1,0 +1,53 @@
+.travel_list-item {
+    width: 550px;
+    display: flex;
+    gap: 24px;
+    color: #18121E;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.travel_item-info {
+    position: relative;
+    margin-top: 16px;
+    width: 295px;
+}
+
+.travel_item-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.travel_item-title:hover {
+    color: #1A3E3E;
+    text-decoration: underline;
+}
+
+.travel_item-desc {
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.travel_item-undertext {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: 120px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.travel_item-date {
+    color: #F2BE22;
+}
+
+
+.travel_item-readmore {
+    color: #1A3E3E;
+}
+
+.travel_item-readmore:hover {
+    text-decoration: underline;
+}
