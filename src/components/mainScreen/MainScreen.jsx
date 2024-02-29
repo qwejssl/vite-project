@@ -6,7 +6,7 @@ import Button from "../button/Button";
 export default function HeaderScreen() {
   return (
     <>
-      <div className="main_screen">
+      <div className="main_screen-section">
         <div className="container">
           <header className="header">
             <a href="#" className="logo">
