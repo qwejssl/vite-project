@@ -38,6 +38,7 @@ export const ways = [
 export const animation = [
     {
         key: 1,
+        review: 4.9,
         img: animationImg1,
         title: "Озеро возле гор",
         underText:"романтическое приключение",
@@ -46,6 +47,7 @@ export const animation = [
     },
     {
         key: 2,
+        review: 4.9,
         img: animationImg2,
         title: "Ночь в горах",
         underText:"в компании друзей",
@@ -54,6 +56,7 @@ export const animation = [
     },
     {
         key: 3,
+        review: 4.9,
         img: animationImg3,
         title: "Йога в горах",
         underText:"для тех, кто забоится о себе",

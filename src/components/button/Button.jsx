@@ -2,11 +2,8 @@ import "./Button.css"
 
 export default function Button({ text, children, position }) {
     function handleClick() {
-        alert(1);
+        alert("Click")
     }
-
-
-
 
     return(
         <>

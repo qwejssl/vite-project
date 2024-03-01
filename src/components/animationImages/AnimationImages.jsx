@@ -1,6 +1,7 @@
 import "./AnimationImages.css"
 import Button from "../button/Button"
 import { animation } from "../../data"
+import star from "../../images/star.png"
 
 
 export default function AnimationImages(props) {
@@ -10,6 +11,11 @@ export default function AnimationImages(props) {
             <section className="image">
                 <img src={props.img} alt="" />
             </section>
+
+            <div className="reviews_block">
+                <img src={star} alt="" />
+                <p className="reviews_text">{props.review}</p>
+            </div>
 
             <section className="text">
                 <div className="animation_title-section">
